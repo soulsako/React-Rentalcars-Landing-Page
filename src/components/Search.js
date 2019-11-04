@@ -85,6 +85,7 @@ class Search extends React.Component {
     window.removeEventListener('mousedown', this.handleClickOutside, false);
   }
 
+  //Hide drop down search results when user clicks outside the search component
   handleClickOutside = (event) => {
     if(!ReactDOM.findDOMNode(this).contains(event.path[0])){
        this.setState({showResults: false})

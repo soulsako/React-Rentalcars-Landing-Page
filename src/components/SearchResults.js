@@ -28,6 +28,7 @@ const ListContainer = styled.div`
   }
 `;
 
+//We can add as many badge colors as nesseccery
 const Badge = styled.div`
 
   background-color: ${props => props.id === 'City' ? '#01b4ff' : '#EC7063'};
@@ -38,9 +39,7 @@ const Badge = styled.div`
   margin-right: 1rem;
 `;
 
-const DetailsContainer = styled.div`
- 
-`;
+const DetailsContainer = styled.div``;
 
 const Name = styled.div`
   font-weight: bold;

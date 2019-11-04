@@ -7,6 +7,8 @@ import Search from './components/Search';
 import MenuLink from './atoms/MenuLink';
 import { FaCheckCircle } from "react-icons/fa";
 
+//Using styled-components library to write CSS
+
 const Main = styled.div`
   width: 100vw;
   @media ${device.mobile}{
