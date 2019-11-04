@@ -74,7 +74,7 @@ const ListItem = (props) => {
     <ListContainer>
       {sanitizeBookingId ? <Badge id={sanitizeBookingId}>{sanitizeBookingId}</Badge> : null}
       <DetailsContainer>
-        <Name>{props.name}{props.iata ? (props.iata) : null}</Name>
+        <Name>{props.name}{props.iata ? `(${props.iata})` : null}</Name>
         <Location>{props.region}, {props.country}</Location>
       </DetailsContainer>
     </ListContainer>
